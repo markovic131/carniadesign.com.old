@@ -7,10 +7,14 @@
 if($_SERVER['SERVER_NAME'] == 'carnia.local')
 {
     $_ENV['SLIM_MODE'] = 'development';
+
+    date_default_timezone_set('Europe/Skopje');
 }
 else
 {
     $_ENV['SLIM_MODE'] = 'production';
+
+    date_default_timezone_set('Europe/Skopje');
 }
 
 define('TEMPLATEPATH','../templates');
@@ -18,20 +22,14 @@ define('TEMPLATEPATH','../templates');
 require '../config.php';
 
 ///////////////////////////////////////////////////////////////////////////////////////
-// --------------------------- INITIATE SLIM APPLICATION --------------------------- //
+// -------------------------- INSTANTIATE SLIM APPLICATION ------------------------- //
 ///////////////////////////////////////////////////////////////////////////////////////
 
 require '../lib/Slim/Slim.php';
 
 \Slim\Slim::registerAutoloader();
 
-// Instantiate and configure Slim
-$app = new \Slim\Slim(array(
-    'templates.path' => TEMPLATEPATH
-    //'log.enabled'    => true,
-    //'log.level'    => \Slim\Log::WARN,
-    //'view'         => new \Slim\Extras\Views\Twig()
-));
+$app = new \Slim\Slim(array('templates.path' => TEMPLATEPATH));
 
 ////////////////////////////////////////////////////////////////////////////////
 // --------------------------- APPLICATION ROUTES --------------------------- //
@@ -51,9 +49,6 @@ $app->get('/(:lang)(/)(:page)', function ($lang = 'en', $page = 'home') use ($ap
 
 })->conditions(array('lang'=>'en|mk'));
 
-/**
- * Contact Form Post
- */
 $app->post('/submitContactForm', function() use ($app,  $config) {
 
     $req = $app->request();
@@ -110,8 +105,13 @@ function sendEmail($to, $name, $email, $subject, $message)
     $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
     $headers .= "From: " . $email . "\r\n";
 
-    $message = "<strong>Name: </strong>" . $name . "<br>";
-    $message .= "<strong>Message:</strong>" . "<br>" . $message . "<br>";
+    $message = "Name: {$name}<br>";
+    $message .= "--------------------------------------------------------------------<br>";
+    $message .= "{$message}<br>";
+    $message .= "--------------------------------------------------------------------<br><br>";
+    $message .= 'Request Time: ' . date("Y-m-d H:i:s", $_SERVER['REQUEST_TIME']) . "<br>";
+    $message .= 'Remote Address: ' . $_SERVER['REMOTE_ADDR'] . "<br>";
+    $message .= 'User Agent: ' . $_SERVER['HTTP_USER_AGENT'] . "<br>";
 
     @mail($to, $subject, $message,$headers);
 
