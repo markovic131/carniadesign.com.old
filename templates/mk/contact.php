@@ -24,7 +24,7 @@
                 <div class="address container">
                     <div class="row">
                         <div class="col-md-12">
-                            <form action="/submitContactForm" method="post" id="contact" role="form">
+                            <form method="post" id="contact" role="form">
                                 <input type="text" id="contactName" name="name" placeholder="Име и Презиме">
                                 <input type="text" id="contactEmail" name="email" placeholder="И-Меил">
                                 <div class="textarea-container">
@@ -40,3 +40,12 @@
         </div><!-- /col-md-6 -->
     </div>
 </div>
+<script type="text/javascript">
+    $(function(){
+        $('form#contact').on('submit',function(e){
+            e.preventDefault();
+            submitContactForm();
+            return false;
+        });
+    });
+</script>
