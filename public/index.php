@@ -99,21 +99,20 @@ function loadView($view = '', $lang = '')
     return $buffer;
 }
 
-function sendEmail($to, $name, $email, $subject, $message)
+function sendEmail($to, $clientName, $clientEmail, $emailSubject, $clientMessage)
 {
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
-    $headers .= "From: " . $email . "\r\n";
+    $headers .= "From: " . $clientEmail . "\r\n";
 
-    $message = "Name: {$name}<br>";
-    $message .= "--------------------------------------------------------------------<br>";
-    $message .= "{$message}<br>";
-    $message .= "--------------------------------------------------------------------<br><br>";
+    $message = "Name: {$clientName}<br>";
+    $message .= "------------------------<br>";
+    $message .= "{$clientMessage}<br>";
+    $message .= "------------------------<br><br>";
     $message .= 'Request Time: ' . date("Y-m-d H:i:s", $_SERVER['REQUEST_TIME']) . "<br>";
     $message .= 'Remote Address: ' . $_SERVER['REMOTE_ADDR'] . "<br>";
-    $message .= 'User Agent: ' . $_SERVER['HTTP_USER_AGENT'] . "<br>";
 
-    @mail($to, $subject, $message,$headers);
+    @mail($to, $emailSubject, $message, $headers);
 
     return true;
 }
