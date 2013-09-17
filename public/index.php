@@ -101,16 +101,16 @@ function loadView($view = '', $lang = '')
 
 function sendEmail($to, $clientName, $clientEmail, $emailSubject, $clientMessage)
 {
-    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers  = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
-    $headers .= "From: " . $clientEmail . "\r\n";
+    $headers .= "From: {$clientName} <{$clientEmail}>" . "\r\n";
 
-    $message = "Name: {$clientName}<br>";
-    $message .= "------------------------<br>";
+    $message  = "<strong>Name:</strong> {$clientName} <{$clientEmail}><br>";
+    $message .= "<hr>";
     $message .= "{$clientMessage}<br>";
-    $message .= "------------------------<br><br>";
-    $message .= 'Request Time: ' . date("Y-m-d H:i:s", $_SERVER['REQUEST_TIME']) . "<br>";
-    $message .= 'Remote Address: ' . $_SERVER['REMOTE_ADDR'] . "<br>";
+    $message .= "<hr><br>";
+    $message .= '<strong>Request Time:</strong> ' . date("Y-m-d H:i:s", $_SERVER['REQUEST_TIME']) . "<br>";
+    $message .= '<strong>Remote Address:</strong> ' . $_SERVER['REMOTE_ADDR'] . "<br>";
 
     @mail($to, $emailSubject, $message, $headers);
 
