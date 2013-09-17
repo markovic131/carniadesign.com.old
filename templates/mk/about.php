@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="team-text span3">
-            <img src="assets/img/team/1.jpg" alt="">
+            <img src="/assets/img/team/1.jpg" alt="">
             <h4>John Doe</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
             <div class="social-links">
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="team-text span3">
-            <img src="assets/img/team/2.jpg" alt="">
+            <img src="/assets/img/team/2.jpg" alt="">
             <h4>Jane Doe</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
             <div class="social-links">
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="team-text span3">
-            <img src="assets/img/team/3.jpg" alt="">
+            <img src="/assets/img/team/3.jpg" alt="">
             <h4>Tim Brown</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
             <div class="social-links">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="team-text span3">
-            <img src="assets/img/team/4.jpg" alt="">
+            <img src="/assets/img/team/4.jpg" alt="">
             <h4>Sarah Red</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
             <div class="social-links">
@@ -88,19 +88,19 @@
             <div class="tabbable tabs-below">
                 <div class="tab-content">
                     <div class="tab-pane active" id="A">
-                        <img src="assets/img/testimonials/1.jpg" title="" alt="">
+                        <img src="/assets/img/testimonials/1.jpg" title="" alt="">
                         <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
                     </div>
                     <div class="tab-pane" id="B">
-                        <img src="assets/img/testimonials/2.jpg" title="" alt="">
+                        <img src="/assets/img/testimonials/2.jpg" title="" alt="">
                         <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
                     </div>
                     <div class="tab-pane" id="C">
-                        <img src="assets/img/testimonials/3.jpg" title="" alt="">
+                        <img src="/assets/img/testimonials/3.jpg" title="" alt="">
                         <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
                     </div>
                     <div class="tab-pane" id="D">
-                        <img src="assets/img/testimonials/1.jpg" title="" alt="">
+                        <img src="/assets/img/testimonials/1.jpg" title="" alt="">
                         <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
                     </div>
                 </div>

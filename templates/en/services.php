@@ -50,7 +50,7 @@
 
 <div class="container">
     <div class="row middle">
-        <h1>See our amazing prices!</h1>
+        <h1>See our amazing offers!</h1>
     </div><!-- /row -->
 </div>
 
@@ -58,8 +58,8 @@
     <div class="row">
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price01.png" alt="">
-                <p><b>100 MB Storage</b></p>
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Start-up</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
                     <li>Website Development</li>
@@ -75,8 +75,8 @@
 
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price02.png" alt="">
-                <p><b>250 MB Storage</b></p>
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Company</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
                     <li>Website Development</li>
@@ -92,8 +92,8 @@
 
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price03.png" alt="">
-                <p><b>250 MB Storage</b></p>
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Corporate</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
                     <li>Website Development</li>

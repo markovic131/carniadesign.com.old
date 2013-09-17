@@ -18,28 +18,28 @@
                 <img src="/assets/img/service01.png" alt="">
                 <br>
                 <br>
-                <p><strong>Step 1: Web Design</strong></p>
+                <p><strong>Чекор 1: Веб Дизајн</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
             </div><!--/col-md-3 -->
             <div class="col-md-3">
                 <img src="/assets/img/service02.png" alt="">
                 <br>
                 <br>
-                <p><strong>Step 2: Integration</strong></p>
+                <p><strong>Чекор 2: Интеграција</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
             </div><!--/col-md-3 -->
             <div class="col-md-3">
                 <img src="/assets/img/service03.png" alt="">
                 <br>
                 <br>
-                <p><strong>Step 3: Marketing</strong></p>
+                <p><strong>Чекор 3: Маркетинг</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
             </div><!--/col-md-3 -->
             <div class="col-md-3">
                 <img src="/assets/img/service04.png" alt="">
                 <br>
                 <br>
-                <p><strong>Step 4: Development</strong></p>
+                <p><strong>Чекор 4: Развој</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
             </div><!--/col-md-3 -->
         </div><!--/middle -->
@@ -58,7 +58,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price01.png" alt="">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
                 <p><b>100 MB Storage</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
@@ -75,7 +75,7 @@
 
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price02.png" alt="">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
                 <p><b>250 MB Storage</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
@@ -92,7 +92,7 @@
 
         <div class="col-md-4">
             <div class="priceBox middle service">
-                <img src="/assets/img/pricing/price03.png" alt="">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
                 <p><b>250 MB Storage</b></p>
                 <ul style="padding-left:0">
                     <li>Website Design</li>
@@ -105,7 +105,7 @@
                     <p>495 &#8364;</p>
                 </div>
             </div><!-- /priceBox -->
-            <p class="text-muted text-right">* 18% VAT applies (Macedonia ONLY)</p>
+            <p class="text-muted text-right">* + 18% ДДВ (само за Македонија)</p>
         </div><!-- /col-md-3 -->
     </div><!-- /row -->
 </div>
