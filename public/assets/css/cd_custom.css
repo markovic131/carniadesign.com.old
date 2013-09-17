@@ -1,0 +1,22 @@
+#slider {
+    overflow: hidden;
+    margin-top:-20px;
+
+ }
+#slider h1 {
+    padding: 0px;
+    background: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+}
+#slider h1 p {
+    line-height: 36px;
+    font-size: 32px;
+}
