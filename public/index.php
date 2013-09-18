@@ -37,6 +37,8 @@ $app = new \Slim\Slim(array('templates.path' => TEMPLATEPATH));
 
 $app->get('/(:lang)(/)(:page)', function ($lang = 'en', $page = 'home') use ($app, $config) {
 
+    if(!in_array($lang, array('en','mk'))) $app->notFound();
+
     $data['title'] = (isset($config['siteTitles'][$lang][$page])) ?
         $config['siteTitles'][$lang][$page] : '';
 

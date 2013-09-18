@@ -1,3 +1,14 @@
+<script>
+    $(function() {
+        if($().flexslider) {
+            $('.flexslider').flexslider({
+                controlNav: true,
+                directionalNav: true,
+                slideshow: false
+            });
+        }
+    });
+</script>
 <section id="slider">
     <div class="flexslider">
         <ul class="slides">
@@ -14,7 +25,6 @@
         </ul>
     </div><!-- /flexslider -->
 </section><!-- #slider -->
-
 <div class="container">
     <div class="row">
         <div class="col-md-6">

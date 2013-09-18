@@ -33,37 +33,33 @@
         <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" href="/assets/ico/favicon.png">
     </head>
-    <!-- Le javascript
-    ================================================== -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="/assets/js/jquery.flexslider.js"></script>
-    <script src="/assets/js/app.js"></script>
-    <script>
-        $(function() {
-            if($().flexslider) {
-                $('.flexslider').flexslider({
-                    controlNav: true,
-                    directionalNav: true,
-                    slideshow: false
-                });
-            }
-        });
-    </script>
-
     <body>
+        <!-- Le javascript
+        ================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="/assets/js/jquery.flexslider.js"></script>
+        <script src="/assets/js/app.js"></script>
         <div class="container">
             <?php include "incl/header.php"; ?>
         </div>
         <?php echo $content; ?>
-
         <div id="carnia-logo-gray">
             <img src="/assets/img/footer_logo.png" alt="CarniaDesign">
         </div>
-        <?php include "incl/footer_{$lang}.php"; ?>
+        <?php include "incl/footer.php"; ?>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', '']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
         <script>
             $(function(){
-                //Attach target=_blank to all external links
                 $('a[href*="://"], form[action*="://"]').not($('a[href*="://'+location.host+'"]')).attr('target','_blank');
             });
         </script>

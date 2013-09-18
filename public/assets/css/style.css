@@ -61,8 +61,8 @@ body                {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-::-moz-selection    { background:#ff0; color:#333; }
-::selection         { background:#ff0; color:#333; }
+::-moz-selection    { background:#B3FF40; color:#333; }
+::selection         { background:#B3FF40; color:#333; }
 
 #slider {
     overflow: hidden;
@@ -349,7 +349,7 @@ em {
 
 #footerwrap p {
     color:#f2f2f2;
-    margin-bottom:0px;
+    /*margin-bottom:0px;*/
     line-height:16px;
 }
 
