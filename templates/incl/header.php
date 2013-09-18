@@ -12,9 +12,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex8-collapse">
         <ul class="nav navbar-nav">
-            <li><a href="/<?=$lang?>/home">За Нас</a></li>
-            <li><a href="/<?=$lang?>/services">Услуги</a></li>
-            <li><a href="/<?=$lang?>/contact">Контакт</a></li>
+            <?php foreach ($headerNavi as $pageSlug => $pageTitle): ?>
+                <li><a href="/<?php echo "{$lang}/{$pageSlug}"; ?>"><?php echo $pageTitle; ?></a></li>
+            <?php endforeach ?>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="/en">EN</a></li>

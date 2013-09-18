@@ -6,26 +6,34 @@ return $config = array(
 
         'siteTitles' => array(
                 'en' => array(
-                    'home'     => 'About Us',
-                    'services' => 'Services',
-                    'contact'  => 'Contact'
+                    'home'      => 'About Us',
+                    'portfolio' => 'Portfolio',
+                    'services'  => 'Services',
+                    'offers'    => 'Offers',
+                    'contact'   => 'Contact'
                     ),
                 'mk' => array(
-                    'home'     => 'За Нас',
-                    'services' => 'Услуги',
-                    'contact'  => 'Контакт'
+                    'home'      => 'За Нас',
+                    'portfolio' => 'Портфолио',
+                    'services'  => 'Услуги',
+                    'offers'    => 'Понуди',
+                    'contact'   => 'Контакт'
                     )
             ),
         'pageMaps' => array(
             'en' => array(
-                'home'     => 'index',
-                'services' => 'services',
-                'contact'  => 'contact'
+                'home'      => 'index',
+                'portfolio' => 'portfolio',
+                'services'  => 'services',
+                'offers'    => 'offers',
+                'contact'   => 'contact'
                 ),
             'mk' => array(
-                'home'     => 'index',
-                'services' => 'services',
-                'contact'  => 'contact'
+                'home'      => 'index',
+                'portfolio' => 'portfolio',
+                'services'  => 'services',
+                'offers'    => 'offers',
+                'contact'   => 'contact'
                 )
             )
     );

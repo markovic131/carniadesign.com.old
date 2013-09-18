@@ -53,11 +53,13 @@
 
     <body>
         <div class="container">
-            <?php include "incl/header_{$lang}.php"; ?>
+            <?php include "incl/header.php"; ?>
         </div>
         <?php echo $content; ?>
 
-        <?php include 'incl/twitter_widget.php'; ?>
+        <div id="carnia-logo-gray">
+            <img src="/assets/img/footer_logo.png" alt="CarniaDesign">
+        </div>
         <?php include "incl/footer_{$lang}.php"; ?>
         <script>
             $(function(){

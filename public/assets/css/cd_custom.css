@@ -1,3 +1,21 @@
+@media (max-width: 480px) {
+    #slider {overflow: hidden;margin-top:-20px;}
+#slider h1 {padding: 0;background: none;position: absolute;left: 0;right: 0;top: 55px;color: #333;font-size: 48px;line-height: 50px;text-align: center;font-family:'Open Sans', sans-serif;font-weight:bold;}
+#slider h1 p {line-height: 18px;font-size: 18px;} }
+
+@media (min-width: 480px) and (max-width: 768px)  {
+    #slider {overflow: hidden;margin-top:-20px;}
+#slider h1 {padding: 0;background: none;position: absolute;left: 0;right: 0;top: 45px;color: #333;font-size: 48px;line-height: 50px;text-align: center;font-family:'Open Sans', sans-serif;font-weight:bold;}
+#slider h1 p {line-height: 24px;font-size: 22px;} }
+
+@media (min-width: 768px) and (max-width: 992px)  {
+    #slider {overflow: hidden;margin-top:-20px;}
+#slider h1 {padding: 0;background: none;position: absolute;left: 0;right: 0;top: 45px;color: #333;font-size: 52px;line-height: 54px;text-align: center;font-family:'Open Sans', sans-serif;font-weight:bold;}
+#slider h1 p {line-height: 30px;font-size: 28px;} }
+
+@media (min-width: 992px) {
 #slider {overflow: hidden;margin-top:-20px;}
 #slider h1 {padding: 0;background: none;position: absolute;left: 0;right: 0;top: 125px;color: #333;font-size: 70px;line-height: 65px;text-align: center;font-family:'Open Sans', sans-serif;font-weight:bold;}
-#slider h1 p {line-height: 36px;font-size: 32px;}
+#slider h1 p {line-height: 36px;font-size: 32px;} }
+
+#carnia-logo-gray {background-color:#565656;width:100%;padding: 50px 0;color:#f2f2f2;text-align: center;}

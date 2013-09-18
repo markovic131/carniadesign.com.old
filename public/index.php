@@ -40,6 +40,8 @@ $app->get('/(:lang)(/)(:page)', function ($lang = 'en', $page = 'home') use ($ap
     $data['title'] = (isset($config['siteTitles'][$lang][$page])) ?
         $config['siteTitles'][$lang][$page] : '';
 
+    $data['headerNavi'] = $config['siteTitles'][$lang];
+
     $data['content'] = (loadView((!isset($config['pageMaps'][$lang][$page])) ?
         $page : $config['pageMaps'][$lang][$page], $lang)) ?: $app->notFound();
 
@@ -70,6 +72,18 @@ $app->post('/postContactForm', function() use ($app,  $config) {
 
     die();
 });
+
+// $app->notFound(function () use ($app) {
+
+//     $data['title'] = '404';
+//     $data['lang'] = 'en';
+//     $data['content'] = loadView('404','en');
+
+//     $app->render('template.php', $data);
+
+//     //$app->halt(404, 'Custom 404 Not Found');
+
+// });
 
 /////////////////////////////////////////////////////////////////////////////
 // --------------------------- RUN APPLICATION --------------------------- //
