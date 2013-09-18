@@ -7,7 +7,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
-    </div><!-- /row -->
+    </div>
 </div>
 
 <div class="container">
@@ -26,8 +26,8 @@
                 <div class="price2Box">
                     <p>295 &#8364;</p>
                 </div>
-            </div><!-- /priceBox -->
-        </div><!-- /col-md-3 -->
+            </div>
+        </div>
 
         <div class="col-md-4">
             <div class="priceBox middle service">
@@ -43,8 +43,8 @@
                 <div class="price2Box">
                     <p>395 &#8364;</p>
                 </div>
-            </div><!-- /priceBox -->
-        </div><!-- /col-md-3 -->
+            </div>
+        </div>
 
         <div class="col-md-4">
             <div class="priceBox middle service">
@@ -60,8 +60,8 @@
                 <div class="price2Box">
                     <p>495 &#8364;</p>
                 </div>
-            </div><!-- /priceBox -->
+            </div>
             <p class="text-muted text-right">* 18% VAT applies (Macedonia ONLY)</p>
-        </div><!-- /col-md-3 -->
-    </div><!-- /row -->
+        </div>
+    </div>
 </div>

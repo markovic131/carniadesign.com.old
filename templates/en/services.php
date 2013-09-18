@@ -16,30 +16,30 @@
                 <br>
                 <p><strong>Step 1: Integration</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
-            </div><!--/col-md-3 -->
+            </div>
             <div class="col-md-3">
                 <img src="/assets/img/service_creative.png" alt="">
                 <br>
                 <br>
                 <p><strong>Step 2: Web Design</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
-            </div><!--/col-md-3 -->
+            </div>
             <div class="col-md-3">
                 <img src="/assets/img/service_development.png" alt="">
                 <br>
                 <br>
                 <p><strong>Step 3: Marketing</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
-            </div><!--/col-md-3 -->
+            </div>
             <div class="col-md-3">
                 <img src="/assets/img/service_production.png" alt="">
                 <br>
                 <br>
                 <p><strong>Step 4: Development</strong></p>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
-            </div><!--/col-md-3 -->
-        </div><!--/middle -->
-    </div><!--/row -->
+            </div>
+        </div>
+    </div>
     <br>
     <hr>
 </div>
@@ -62,7 +62,7 @@
             <p>For us, it does not get much better than working with smart, passionate clients to solve tough problems. We aim to deliver not just a good end user experience, but a good client experience throughout the project.</p>
         </div><!--/col-md-8 -->
         <div class="col-md-4">
-            <h4 class="title-bg">To do our best work, stay sane and enjoy life we stick to a few simple rules.</h4>
+            <a href="contact" class="btn btn-primary btn-lg btn-block">Request a Free Quote</a>
             <div class="twoBox">
                 <h3>1 - MAKE GOOD DESIGN</h3>
                 <p>Good design works on an intellectual and emotional level, and is the intersection of your business goals with your user needs. We look for this sweet spot with every project in order to deliver a simple, elegant solution.</p>
@@ -74,8 +74,8 @@
                 <p>We love what we do, and so we have a good time doing it. We also have outside passionsÂtravel, food, music and slavic philology to name a fewsÂthat not only keep us happy, but add dimension to the work we do.</p>
                 <br>
             </div>
-        </div><!--/col-md-4 -->
-    </div><!--/row -->
+        </div>
+    </div>
     <br>
     <br>
 </div>

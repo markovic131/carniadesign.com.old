@@ -96,9 +96,9 @@ input, button, select, textarea {
 .dropdown-submenu:focus > a {
   color: #ffffff;
   text-decoration: none;
-  background-color: #3bc492;
+  background-color: #3BA4C4;
     background-repeat: repeat-x;
-    background-image: linear-gradient(to bottom, #3bc492, #37b788);
+    background-image: linear-gradient(to bottom, #3BA4C4, #37b788);
 }
 
 .dropdown-menu > .active > a,
@@ -106,10 +106,10 @@ input, button, select, textarea {
 .dropdown-menu > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #3bc492;
+  background-color: #3BA4C4;
     background-repeat: repeat-x;
     outline: 0;
-    background-image: linear-gradient(to bottom, #3bc492, #37b788);
+    background-image: linear-gradient(to bottom, #3BA4C4, #37b788);
 }
 
 .accordion-group {
@@ -121,7 +121,7 @@ input, button, select, textarea {
 }
 
 .accordion-heading {
-    background:#3bc492;
+    background:#3BA4C4;
 }
 
 .accordion-heading a{
@@ -156,14 +156,6 @@ body,
 input,
 textarea {  }
 
-a:link, a:visited {
-    color: #F1505A;
-}
-a:hover, a:active {
-    color: #F1505A;
-    text-decoration: underline;
-}
-
 h1,
 h2,
 h3,
@@ -191,7 +183,7 @@ h2 {
     margin-bottom: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight:bold;
-    color:#e25740;
+    color:#C71414;
 }
 
 h3 {
@@ -201,7 +193,7 @@ h3 {
     margin-bottom: 0em;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight:bold;
-    color:#e25740;
+    color:#C71414;
 
 }
 
@@ -255,7 +247,7 @@ p {
 }
 
 em {
-    color:#e25740;
+    color:#C71414;
     font-style: normal;
     font-family: 'Open Sans';
     font-size:14px;
@@ -277,7 +269,7 @@ em {
 #welcomewrap {
     width: 100%;
     height:380px;
-    background:#3bc492;
+    background:#3BA4C4;
     color:#fff;
     margin-top: -60px;
     text-align:center;
@@ -374,10 +366,9 @@ em {
 }
 
 hr {
-  margin: 20px 0;
+  /*margin: 20px 0;*/
   border: 0;
-  border-top: 1px dashed #eeeeee;
-  border-bottom: 1px dashed #bfbfbf;
+  border-top: 1px solid #ddd;
 }
 
 .middle {
@@ -385,7 +376,7 @@ hr {
 }
 
 h1.title-bg, h2.title-bg, h3.title-bg, h4.title-bg , h5.title-bg, h6.title-bg {
-    background:#3bc492;
+    background:#3BA4C4;
     padding:10px 5px;
     margin: 0px 0px 20px 0px;
     color: #fff;
@@ -449,7 +440,7 @@ h1.title2-bg, h2.title2-bg, h3.title2-bg, h4.title2-bg , h5.title2-bg, h6.title2
 .oneBox {
     position: inherit;
     margin: 0px;
-    background-color: #3bc492;
+    background-color: #3BA4C4;
     cursor: pointer;
     left: 0px;
 }
@@ -472,12 +463,14 @@ h1.title2-bg, h2.title2-bg, h3.title2-bg, h4.title2-bg , h5.title2-bg, h6.title2
 }
 
 .twoBox {
-    margin: 0px;
+    margin: 0;
+    margin-top: 25px;
     background-color:#fff;
     position:inherit;
+    padding: 25px 25px;
 }
 
-.twoBox p {
+/*.twoBox p {
     font-family:'Open Sans', sans-serif;
     font-size:18px;
     line-height:24px;
@@ -489,14 +482,9 @@ h1.title2-bg, h2.title2-bg, h3.title2-bg, h4.title2-bg , h5.title2-bg, h6.title2
     display: inline-block;
     font-size:12px;
     font-style:oblique;
-    color:#e25740;
+    color:#C71414;
 }
-
-.twoBox h3{
-    margin-left:10px;
-    margin-right:10px;
-}
-
+*/
 
 /* ----------------------------------------------------------------------------------------------------------
 07 - Golbal Boxes --------------------------------------------------------------------------------------------
@@ -656,7 +644,7 @@ h1.title2-bg, h2.title2-bg, h3.title2-bg, h4.title2-bg , h5.title2-bg, h6.title2
     }
 
 .button_green a {
-    background-color:#3bc492;
+    background-color:#3BA4C4;
     text-decoration: none;
     float: left;
     display: block;
@@ -823,7 +811,7 @@ h1.title2-bg, h2.title2-bg, h3.title2-bg, h4.title2-bg , h5.title2-bg, h6.title2
 .team_image {
     position: relative;
     float: left;
-    background: #3bc492;
+    background: #3BA4C4;
     margin-bottom:20px;
     background-image:url("../img/read_more.png");
     background-repeat:no-repeat;
@@ -1348,7 +1336,7 @@ ul.img-feed li {
 }
 
 #landingwrap-02 {
-    background:#3bc492;
+    background:#3BA4C4;
     width: 100%;
     color:#fff;
 }
@@ -1423,7 +1411,7 @@ ul.img-feed li {
 
 #soonwrap {
     margin-top: -60px;
-    background:#3bc492;
+    background:#3BA4C4;
     width: 100%;
     color:#fff;
 }
@@ -1481,7 +1469,7 @@ ul.img-feed li {
 }
 
 .resume-details h4{
-    color:#3bc492;
+    color:#3BA4C4;
     font-size:18px;
     margin-top:6px;
     margin-bottom:12px;
@@ -1529,7 +1517,7 @@ ul.img-feed li {
 }
 
 #eventwrap-02 {
-    background:#3bc492;
+    background:#3BA4C4;
     width: 100%;
     color:#fff;
 }
@@ -1566,7 +1554,7 @@ ul.img-feed li {
     margin-right:6px;
 }
 .label-special {
-  background-color: #3bc492;
+  background-color: #3BA4C4;
   font-size:14px;
 }
 
@@ -1633,7 +1621,7 @@ ul#portfolio {
 
 input[type=submit] {
     font-size: 30px;
-    background: #3bc492;
+    background: #428bca;
     color: #fff;
     font-weight:300;
     border: none;

@@ -6,7 +6,7 @@ return $config = array(
 
         'siteTitles' => array(
                 'en' => array(
-                    'home'      => 'About Us',
+                    'home'      => 'About',
                     'portfolio' => 'Portfolio',
                     'services'  => 'Services',
                     'offers'    => 'Offers',

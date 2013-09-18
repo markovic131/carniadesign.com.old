@@ -19,3 +19,10 @@
 #slider h1 p {line-height: 36px;font-size: 32px;} }
 
 #carnia-logo-gray {background-color:#565656;width:100%;padding: 50px 0;color:#f2f2f2;text-align: center;}
+#footer-copyright {
+    font-size: 12px;
+    padding-top: 45px;
+}
+#footer-social-icons {
+    padding: 45px 0;
+}
