@@ -1,116 +1,69 @@
-<!-- Page Title -->
-<div class="page-title">
+<div class="container">
+    <div class="row">
+        <br>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <h3>CARNIA DESIGN CO.</h3>
+            <p>We are a team of close-knit creatives, technologists, strategists, and producers whose skills are matched only by our dedication. Our hard work put us on the map, and our commitment to creative innovation keeps us there. We strive to put that same level of energy into everything we touch, whether building a global campaign or a better neighborhood.</p>
+        </div><!-- /col-md-4 -->
+        <div class="col-md-4">
+            <p class="text-center">
+                <img src="http://placehold.it/250x250" class="img-circle">
+            </p>
+        </div><!-- /col-md-4 -->
+    </div><!-- /row -->
+    <br>
+</div>
+
+<div id="blackwrap">
     <div class="container">
+        <h1>Meat The Dream Team</h1>
+        <br>
+        <br>
+        <br>
         <div class="row">
-            <div class="col-md-12">
-                <i class="icon-user page-title-icon"></i>
-                <h2>About Us /</h2>
-                <p>Below you can find more information about our company</p>
-            </div>
-        </div>
-    </div>
+            <div class="col-md-4">
+                <p><img src="http://placehold.it/150x150" alt="" class="img-circle"></p>
+                <p><b>MARKO ALEKSIC</b><br>Developer</p>
+            </div><!-- /col-md-2 -->
+            <div class="col-md-4">
+                <p><img src="http://placehold.it/150x150" alt="" class="img-circle"></p>
+                <p><b>IGOR TASKOVSKI</b><br>Developer</p>
+            </div><!-- /col-md-2 -->
+            <div class="col-md-4">
+                <p><img src="http://placehold.it/150x150" alt="" class="img-circle"></p>
+                <p><b>DRAGANA CVETKOVSKA</b><br>Marketing &amp; Finance</p>
+            </div><!-- /col-md-2 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+    <br>
+    <br>
 </div>
 
-<!-- About Us Text -->
-<div class="about-us container">
+<div class="container">
     <div class="row">
-        <div class="about-us-text col-md-12">
-            <h4>About Andia</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
-            <h4>Our Mission</h4>
-            <p>Lorem ipsum dolor sit amet, <span class="violet">consectetur adipisicing</span> elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod <span class="violet">tempor incididunt</span> ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-            <h4>Why Choose Us</h4>
-            <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis <span class="violet">nostrud exerci</span> tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-    </div>
-</div>
-
-<!-- Meet Our Team -->
-<div class="team container">
-    <div class="team-title">
-        <h3>Meet Our Team</h3>
-    </div>
-    <div class="row">
-        <div class="team-text span3">
-            <img src="assets/img/team/1.jpg" alt="">
-            <h4>John Doe</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-            <div class="social-links">
-                <a class="facebook" href=""></a>
-                <a class="twitter" href=""></a>
-                <a class="linkedin" href=""></a>
-                <a class="email" href=""></a>
-            </div>
-        </div>
-        <div class="team-text span3">
-            <img src="assets/img/team/2.jpg" alt="">
-            <h4>Jane Doe</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-            <div class="social-links">
-                <a class="facebook" href=""></a>
-                <a class="twitter" href=""></a>
-                <a class="linkedin" href=""></a>
-                <a class="email" href=""></a>
-            </div>
-        </div>
-        <div class="team-text span3">
-            <img src="assets/img/team/3.jpg" alt="">
-            <h4>Tim Brown</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
-            <div class="social-links">
-                <a class="facebook" href=""></a>
-                <a class="twitter" href=""></a>
-                <a class="linkedin" href=""></a>
-                <a class="email" href=""></a>
-            </div>
-        </div>
-        <div class="team-text span3">
-            <img src="assets/img/team/4.jpg" alt="">
-            <h4>Sarah Red</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
-            <div class="social-links">
-                <a class="facebook" href=""></a>
-                <a class="twitter" href=""></a>
-                <a class="linkedin" href=""></a>
-                <a class="email" href=""></a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Testimonials -->
-<div class="testimonials container">
-    <div class="testimonials-title">
-        <h3>Testimonials</h3>
-    </div>
-    <div class="row">
-        <div class="testimonial-list col-md-12">
-            <div class="tabbable tabs-below">
-                <div class="tab-content">
-                    <div class="tab-pane active" id="A">
-                        <img src="assets/img/testimonials/1.jpg" title="" alt="">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                    </div>
-                    <div class="tab-pane" id="B">
-                        <img src="assets/img/testimonials/2.jpg" title="" alt="">
-                        <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                    </div>
-                    <div class="tab-pane" id="C">
-                        <img src="assets/img/testimonials/3.jpg" title="" alt="">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                    </div>
-                    <div class="tab-pane" id="D">
-                        <img src="assets/img/testimonials/1.jpg" title="" alt="">
-                        <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                    </div>
-                </div>
-               <ul class="nav nav-tabs">
-                   <li class="active"><a href="#A" data-toggle="tab"></a></li>
-                   <li class=""><a href="#B" data-toggle="tab"></a></li>
-                   <li class=""><a href="#C" data-toggle="tab"></a></li>
-                   <li class=""><a href="#D" data-toggle="tab"></a></li>
-               </ul>
-           </div>
-        </div>
-    </div>
+        <br>
+        <br>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            <h3>WHAT WE DO</h3>
+            <p>The digital experiences we create are unique, engaging, and results-focused, seamlessly integrating the highest levels of creativity and technology. You may recognize our work for its personality or its attention to detail, while our clients know us as a committed partner who delivers every timeÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âon time, on budget, and above expectations. We're exceedingly committed to the excellence of our work and to the quality of the relationships we build.</p>
+        </div><!-- /col-md-4 -->
+        <div class="middle">
+            <div class="col-md-2">
+                <p><img src="/assets/img/service_creative.png" alt=""></p>
+                <p><b>Creative Designs</b></p>
+            </div><!-- /col-md-2 -->
+            <div class="col-md-2">
+                <p><img src="/assets/img/service_development.png" alt=""></p>
+                <p><b>Advanced Technology</b></p>
+            </div><!-- /col-md-2 -->
+            <div class="col-md-2">
+                <p><img src="/assets/img/service_strategy.png" alt=""></p>
+                <p><b>Project Planning</b></p>
+            </div><!-- /col-md-2 -->
+        </div><!-- /middle -->
+        <div class="col-md-1"></div>
+    </div><!-- /row -->
+    <br>
 </div>

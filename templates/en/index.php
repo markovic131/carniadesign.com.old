@@ -1,30 +1,16 @@
-<section id="slider">
-    <div class="flexslider">
-        <ul class="slides">
-            <!-- Slide -->
-            <li>
-                <h1>CARNIA DESIGN STUDIO<br>
-                    <p class="lead">
-                        We design &amp; develop beautiful website and web apps. <br>
-                        Our methods are contemporary; our works - timeless.
-                    </p>
-                </h1>
-                <img src="/assets/img/bck.jpg" alt="">
-            </li>
-        </ul>
-    </div><!-- /flexslider -->
-</section><!-- #slider -->
-<script>
-    $(function() {
-        if($().flexslider) {
-            $('.flexslider').flexslider({
-                controlNav: true,
-                directionalNav: true,
-                slideshow: false
-            });
-        }
-    });
-</script>
+<div id="landingwrap-03">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h2>Carnia Design Studio</h2>
+                    <p>We design & develop beautiful website and web apps.<br> Our methods are contemporary; our works - TIMELESS.</p>
+                </div><!-- /col-md-4 -->
+                <div class="col-md-2"></div>
+            </div><!-- /row -->
+            <br>
+            <br>
+        </div><!-- /container -->
+    </div>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -42,6 +28,33 @@
     </div><!-- /row -->
     <hr>
 </div>
+
+<!-- <section id="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li style="display: list-item;">
+                <h1>CARNIA DESIGN STUDIO<br>
+                    <p class="lead">
+                        We design &amp; develop beautiful website and web apps. <br>
+                        Our methods are contemporary; our works - timeless.
+                    </p>
+                </h1>
+                <img src="/assets/img/bck.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</section> -->
+<script>
+    // $(function() {
+    //     if($().flexslider) {
+    //         $('.flexslider').flexslider({
+    //             controlNav: true,
+    //             directionalNav: true,
+    //             slideshow: false
+    //         });
+    //     }
+    // });
+</script>
 
 <div class="container">
     <div class="row">

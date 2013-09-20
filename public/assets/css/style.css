@@ -1372,12 +1372,12 @@ ul.img-feed li {
 }
 
 #landingwrap-03 {
-    background: url(../img/landing/header.png) no-repeat center top;
+    background: url(../img/index_landing.png) no-repeat center top;
     margin-top: -60px;
-    padding-top:160px;
+    padding-top: 160px;
     text-align:center;
     margin-left:-2px;
-    height:500px;
+    height:660px;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     background-size:cover;
@@ -1386,7 +1386,7 @@ ul.img-feed li {
 #landingwrap-03 h2 {
     color:#fff;
     font-family:'Open Sans Condensed', sans-serif;
-    font-size:50px;
+    font-size:80px;
     font-weight:300;
 }
 

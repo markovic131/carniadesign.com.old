@@ -6,7 +6,8 @@ return $config = array(
 
         'siteTitles' => array(
                 'en' => array(
-                    'home'      => 'About',
+                    'home'      => 'Home',
+                    'about'     => 'About Us',
                     'portfolio' => 'Portfolio',
                     'services'  => 'Services',
                     'offers'    => 'Offers',
@@ -23,6 +24,7 @@ return $config = array(
         'pageMaps' => array(
             'en' => array(
                 'home'      => 'index',
+                'about'     => 'about',
                 'portfolio' => 'portfolio',
                 'services'  => 'services',
                 'offers'    => 'offers',

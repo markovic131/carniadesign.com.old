@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">CARNIA DESIGN STUDIO</a>
+        <a class="navbar-brand" href="#">CARNIA DESIGN CO.</a>
     </div>
     <div class="collapse navbar-collapse navbar-ex8-collapse">
         <ul class="nav navbar-nav" id="mainNavigation">
