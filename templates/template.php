@@ -7,8 +7,13 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
         <!-- Le styles -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href="/assets/css/style.css" rel="stylesheet">
         <link href="/assets/css/onepage.css" rel="stylesheet">
         <link href="/assets/css/cd_custom.css" rel="stylesheet">
@@ -16,10 +21,6 @@
         <link href="/assets/css/pricing_tables.css" rel="stylesheet">
 
         <style>body { padding-top: 70px; }</style>
-
-        <!-- Google Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -36,18 +37,21 @@
     <body>
         <!-- Le javascript
         ================================================== -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <script src="/assets/js/jquery.flexslider.js"></script>
         <script src="/assets/js/app.js"></script>
-        <div class="container">
-            <?php include "incl/header.php"; ?>
-        </div>
+
+        <?php include "incl/header.php"; ?>
+
         <?php echo $content; ?>
+
         <div id="carnia-logo-gray">
             <img src="/assets/img/footer_logo.png" alt="CarniaDesign">
         </div>
+
         <?php include "incl/footer.php"; ?>
+
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', '']);

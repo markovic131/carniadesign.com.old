@@ -4,16 +4,12 @@
 // --------------------------- VARIABLES --------------------------- //
 ///////////////////////////////////////////////////////////////////////
 
-if($_SERVER['SERVER_NAME'] == 'carnia.local')
-{
+if($_SERVER['SERVER_NAME'] == 'carnia.local') {
     $_ENV['SLIM_MODE'] = 'development';
-
     date_default_timezone_set('Europe/Skopje');
 }
-else
-{
+else{
     $_ENV['SLIM_MODE'] = 'production';
-
     date_default_timezone_set('Europe/Skopje');
 }
 
