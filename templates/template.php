@@ -12,13 +12,14 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
         <!-- Le styles -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="/assets/css/carnia.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <link href="/assets/css/style.css" rel="stylesheet">
+        <!-- <link href="/assets/css/style.css" rel="stylesheet">
         <link href="/assets/css/onepage.css" rel="stylesheet">
         <link href="/assets/css/cd_custom.css" rel="stylesheet">
         <link href="/assets/css/flexslider.css" rel="stylesheet">
-        <link href="/assets/css/pricing_tables.css" rel="stylesheet">
+        <link href="/assets/css/pricing_tables.css" rel="stylesheet"> -->
 
         <style>body { padding-top: 70px; }</style>
 
