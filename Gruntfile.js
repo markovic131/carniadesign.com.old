@@ -38,22 +38,10 @@ module.exports = function(grunt) {
             js : {
                 base : '<%= options.base %>/js',
                 files : [
-                    '<%= options.js.base %>/jquery.min.js',
-                    '<%= options.js.base %>/modernizr.js',
-                    '<%= options.js.base %>/accounting.min.js',
-                    '<%= options.js.base %>/jquery.carouFredSel-6.2.1-packed.js',
-                    '<%= options.js.base %>/jquery.ba-throttle-debounce.min.js',
-                    '<%= options.js.base %>/jquery.mousewheel.min.js',
-                    '<%= options.js.base %>/jquery.touchSwipe.min.js',
-                    '<%= options.js.base %>/jquery.transit.min.js',
-                    '<%= options.js.base %>/carousel.js',
-                    '<%= options.js.base %>/jquery.validate.min.js',
-                    '<%= options.js.base %>/jquery.form.min.js',
-                    '<%= options.js.base %>/typeahead.min.js',
-                    '<%= options.js.base %>/angular.js',
+                    '<%= options.js.base %>/jquery.js'
                 ],
                 concat : '<%= options.js.base %>/concat.js',
-                min : '<%= options.publish %>/js/dep.min.js'
+                min : '<%= options.publish %>/js/app.min.js'
             }
 
         },
