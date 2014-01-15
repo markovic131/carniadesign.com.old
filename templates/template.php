@@ -13,7 +13,7 @@
 
         <!-- Le styles -->
         <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> -->
-        <link rel="stylesheet" href="/assets/css/carnia.min.css">
+        <link rel="stylesheet" href="/builds/css/style.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <!-- <link href="/assets/css/style.css" rel="stylesheet">
         <link href="/assets/css/onepage.css" rel="stylesheet">
@@ -21,7 +21,7 @@
         <link href="/assets/css/flexslider.css" rel="stylesheet">
         <link href="/assets/css/pricing_tables.css" rel="stylesheet"> -->
 
-        <style>body { padding-top: 70px; }</style>
+        <style>body{padding-top: 70px;}.container{max-width: 980px;}</style>
 
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -38,10 +38,8 @@
     <body>
         <!-- Le javascript
         ================================================== -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="/builds/js/app.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <script src="/assets/js/jquery.flexslider.js"></script>
-        <script src="/assets/js/app.js"></script>
 
         <?php include "incl/header.php"; ?>
 

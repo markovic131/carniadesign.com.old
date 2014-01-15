@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
         options : {
 
-            base : 'assets',
+            base : 'src',
 
             publish : 'public/builds',
 
@@ -26,10 +26,7 @@ module.exports = function(grunt) {
             css : {
                 base : '<%= options.base %>/css',
                 files : [
-                    '<%= options.css.base %>/reset.css',
-                    '<%= options.css.base %>/default.css',
-                    '<%= options.css.base %>/pure/pure.min.css',
-                    '<%= options.css.base %>/front.css',
+                    '<%= options.css.base %>/less.css'
                 ],
                 concat : '<%= options.css.base %>/concat.css',
                 min : '<%= options.publish %>/css/style.min.css'
@@ -42,7 +39,13 @@ module.exports = function(grunt) {
                 ],
                 concat : '<%= options.js.base %>/concat.js',
                 min : '<%= options.publish %>/js/app.min.js'
-            }
+            },
+
+            less: {
+                base: '<%= options.base %>/less',
+                file: '<%= options.less.base %>/main.less',
+                compiled: '<%= options.css.base %>/less.css'
+            },
 
         },
 
@@ -77,10 +80,15 @@ module.exports = function(grunt) {
             }
         },
 
-        cssmin: {
-            minify: {
-                src: '<%= options.css.concat %>',
-                dest: '<%= options.css.min %>'
+        less: {
+            main: {
+                options: {
+                    yuicompress: true,
+                    ieCompat: true
+                },
+                files: {
+                    '<%= options.less.compiled %>': '<%= options.less.file %>'
+                }
             }
         },
 
@@ -94,8 +102,14 @@ module.exports = function(grunt) {
                 src: '<%= options.js.concat %>',
                 dest: '<%= options.js.min %>'
             }
-        }
+        },
 
+        cssmin: {
+            minify: {
+                src: '<%= options.css.concat %>',
+                dest: '<%= options.css.min %>'
+            }
+        }
     });
 
     // Load the plugin that provides the "uglify" task.
@@ -104,9 +118,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-less');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean:all','jshint:all','concat','cssmin','uglify','clean:concat']);
+    grunt.registerTask('default', ['clean:all','less','jshint:all','concat','cssmin','uglify','clean:concat']);
 
     // Production
     // grunt.registerTask('default', ['clean:all','concat','cssmin','uglify','clean:concat']);

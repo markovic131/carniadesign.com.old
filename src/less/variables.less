@@ -38,9 +38,11 @@
 
 // Typography
 // -------------------------
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400,700&subset=latin,cyrillic);
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+
+@font-family-sans-serif:  "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "EB Garamond", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
@@ -58,7 +60,7 @@
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
-@headings-font-family:    inherit;
+@headings-font-family:    @font-family-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
@@ -263,7 +265,7 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    50px;
+@navbar-height:                    70px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
@@ -297,12 +299,12 @@
 //
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         #fff;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 @gray-light;
-@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-color:                 @gray-dark;
+@navbar-inverse-link-hover-color:           @gray-darker;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
 @navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
