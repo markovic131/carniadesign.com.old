@@ -10,14 +10,14 @@ return $config = array(
                     'about'     => 'About Us',
                     'portfolio' => 'Portfolio',
                     'services'  => 'Services',
-                    'offers'    => 'Offers',
+                    // 'offers'    => 'Offers',
                     'contact'   => 'Contact'
                     ),
                 'mk' => array(
                     'home'      => 'За Нас',
                     'portfolio' => 'Портфолио',
                     'services'  => 'Услуги',
-                    'offers'    => 'Понуди',
+                    // 'offers'    => 'Понуди',
                     'contact'   => 'Контакт'
                     )
             ),
@@ -27,14 +27,14 @@ return $config = array(
                 'about'     => 'about',
                 'portfolio' => 'portfolio',
                 'services'  => 'services',
-                'offers'    => 'offers',
+                // 'offers'    => 'offers',
                 'contact'   => 'contact'
                 ),
             'mk' => array(
                 'home'      => 'index',
                 'portfolio' => 'portfolio',
                 'services'  => 'services',
-                'offers'    => 'offers',
+                // 'offers'    => 'offers',
                 'contact'   => 'contact'
                 )
             )

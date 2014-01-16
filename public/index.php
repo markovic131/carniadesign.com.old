@@ -5,12 +5,16 @@
 ///////////////////////////////////////////////////////////////////////
 
 if($_SERVER['SERVER_NAME'] == 'carnia.local') {
+
     $_ENV['SLIM_MODE'] = 'development';
     date_default_timezone_set('Europe/Skopje');
+
 }
 else{
+
     $_ENV['SLIM_MODE'] = 'production';
     date_default_timezone_set('Europe/Skopje');
+
 }
 
 define('TEMPLATEPATH','../templates');
@@ -33,7 +37,17 @@ $app = new \Slim\Slim(array('templates.path' => TEMPLATEPATH));
 
 $app->get('/(:lang)(/)(:page)', function ($lang = 'en', $page = 'home') use ($app, $config) {
 
-    if(!in_array($lang, array('en','mk'))) $app->notFound();
+    if(!in_array($lang, array('en','mk'))) {
+
+        $app->notFound();
+
+    }
+
+    if(!isset($config['pageMaps'][$lang][$page])) {
+
+        $app->notFound();
+
+    }
 
     $data['title'] = (isset($config['siteTitles'][$lang][$page])) ?
         $config['siteTitles'][$lang][$page] : '';
@@ -61,14 +75,14 @@ $app->post('/postContactForm', function() use ($app,  $config) {
 
     $validation = validate($clientName, $clientEmail, $clientMessage);
 
-    if($validation['success'] == '1')
-    {
+    if($validation['success'] == '1') {
+
         sendEmail($config['emailTo'], $clientName, $clientEmail, $subject, $clientMessage);
+
     }
 
     echo json_encode($validation);
-
-    die();
+    exit;
 });
 
 // $app->notFound(function () use ($app) {

@@ -1,4 +1,4 @@
-<div id="welcomewrap">
+<div id="welcomeWrap">
     <h1>OUR FEATURED WORK</h1>
 </div>
 

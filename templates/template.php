@@ -45,7 +45,7 @@
 
         <?php echo $content; ?>
 
-        <div id="carnia-logo-gray">
+        <div id="carniaLogoWrap">
             <img src="/assets/img/footer_logo.png" alt="CarniaDesign">
         </div>
 

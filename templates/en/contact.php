@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row middle">
+    <div class="row text-center">
         <div class="col-md-6">
             <h1>Get in Touch</h1>
             <p>
@@ -14,29 +14,27 @@
         </div>
         <div class="col-md-6">
             <h1 id="drop-us-line">Drop us a line.</h1>
-            <div class="contact-area">
-                <div class="address container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form method="post" id="contact" role="form">
-                                <input type="text" id="contactName" name="name" placeholder="Name">
-                                <input type="text" id="contactEmail" name="email" placeholder="Email">
-                                <div class="textarea-container">
-                                    <textarea id="message" name="message" placeholder="Message"></textarea>
-                                </div>
-                                <input type="hidden" name="lang" value="<?=$lang?>">
-                                <input type="submit" id="submit" value="Send">
-                            </form>
-                        </div>
-                    </div>
+            <form method="post" id="contact" role="form">
+                <div class="form-group">
+                    <input type="name" name="name" class="form-control" id="contactName" placeholder="Name">
                 </div>
-            </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" id="contactEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" name="message" placeholder="You Message"></textarea>
+                </div>
+                <input type="hidden" name="lang" value="<?=$lang?>">
+                <button type="submit" class="btn btn-carnia btn-block" id="contactSubmitButton">Send</button>
+            </form>
         </div>
     </div>
 </div>
 <script type="text/javascript">
     $(function(){
         $('form#contact').on('submit',function(e){
+            alert(1);
+            return false;
             e.preventDefault();
             submitContactForm();
             return false;

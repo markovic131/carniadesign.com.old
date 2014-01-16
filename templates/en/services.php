@@ -1,10 +1,10 @@
-<div id="welcomewrap">
+<div id="welcomeWrap">
     <h1>HOW TO CREATE A GOOD SERVICE EXPERIENCE?</h1>
 </div>
 
 <div class="container">
     <div class="row">
-        <div class="middle">
+        <div class="text-center">
             <br>
             <br>
             <p class="lead">Our approach is one that starts with your business objectives and ends with sastified user.</p>
@@ -45,6 +45,74 @@
 </div>
 
 <div class="container">
+    <div class="row middle">
+        <h1 style="margin-top:0.5em">See our amazing offers!</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="priceBox text-center service">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Start-up</b></p>
+                <ul style="padding-left:0" class="list-unstyled">
+                    <li>Website Design</li>
+                    <li>Website Development</li>
+                    <li>Unlimited Storage</li>
+                    <li>Unlimited Mails</li>
+                    <li>Unlimited Bandwidth</li>
+                </ul>
+                <div class="price2Box">
+                    <p>295 &#8364;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="priceBox text-center service">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Company</b></p>
+                <ul style="padding-left:0" class="list-unstyled">
+                    <li>Website Design</li>
+                    <li>Website Development</li>
+                    <li>Unlimited Storage</li>
+                    <li>Unlimited Mails</li>
+                    <li>Unlimited Bandwidth</li>
+                </ul>
+                <div class="price2Box">
+                    <p>395 &#8364;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="priceBox text-center service">
+                <img src="http://placehold.it/152x152"class="img-circle" alt="">
+                <p><b>Corporate</b></p>
+                <ul style="padding-left:0" class="list-unstyled">
+                    <li>Website Design</li>
+                    <li>Website Development</li>
+                    <li>Unlimited Storage</li>
+                    <li>Unlimited Mails</li>
+                    <li>Unlimited Bandwidth</li>
+                </ul>
+                <div class="price2Box">
+                    <p>495 &#8364;</p>
+                </div>
+            </div>
+            <p class="text-muted text-right">* 18% VAT applies (Macedonia ONLY)</p>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-8">
             <h6>Why do you need a good experience design?</h6>
@@ -60,7 +128,7 @@
             <hr>
             <p><b>It's good fun</b></p>
             <p>For us, it does not get much better than working with smart, passionate clients to solve tough problems. We aim to deliver not just a good end user experience, but a good client experience throughout the project.</p>
-        </div><!--/col-md-8 -->
+        </div>
         <div class="col-md-4">
             <a href="contact" class="btn btn-primary btn-lg btn-block">Request a Free Quote</a>
             <div class="twoBox">
@@ -78,4 +146,4 @@
     </div>
     <br>
     <br>
-</div>
+</div> -->
