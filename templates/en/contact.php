@@ -1,7 +1,10 @@
+<div id="welcomeWrap">
+    <h1>Get In Touch</h1>
+</div>
 <div class="container">
     <div class="row text-center">
         <div class="col-md-6">
-            <h1>Get in Touch</h1>
+            <h1>We Would Like to Talk.</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -24,8 +27,10 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="3" name="message" placeholder="You Message"></textarea>
                 </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block" id="contactSubmitButton">Send</button>
+                </div>
                 <input type="hidden" name="lang" value="<?=$lang?>">
-                <button type="submit" class="btn btn-carnia btn-block" id="contactSubmitButton">Send</button>
             </form>
         </div>
     </div>

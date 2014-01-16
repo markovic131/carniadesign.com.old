@@ -5176,6 +5176,9 @@ td.visible-print {
     display: none !important;
   }
 }
+body {
+  background-color: #f2f2f2;
+}
 #carniaLogoWrap {
   background: #565656;
   text-align: center;
